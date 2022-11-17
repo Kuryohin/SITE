@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="/" method="POST" id="form">
+    <form action="send.php" method="POST" id="form">
         <input type="text" name = "name">
+        <button type="sumbit"></button>
     </form>
-    Привет, сегодня <?php echo date('l, F jS, Y'); ?>.
-    <script src="script.js"></script>
 </body>
 </html>
